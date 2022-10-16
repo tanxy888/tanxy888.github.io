@@ -1540,7 +1540,7 @@ header.header {
   width: 100%;
 }
 .with-love {
-  color: #f00;
+  color: #ff2400;
   display: inline-block;
   margin: 0 5px;
 }
@@ -2053,6 +2053,13 @@ header.header {
 .post-block:last-of-type .post-eof {
   display: none;
 }
+.post-copyright ul {
+  list-style: none;
+  padding: 0.5em 1em;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
+}
 .post-tags {
   margin-top: 40px;
   text-align: center;
@@ -2532,7 +2539,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffacac;
+  background: #a29a38;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
